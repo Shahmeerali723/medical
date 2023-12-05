@@ -1,0 +1,2455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from doccure-html.dreamguystech.com/template/admin/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Dec 2022 12:40:05 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+<title>Doccure - Bootstrap Admin HTML Template</title>
+
+<link rel="shortcut icon" href="assets/img/favicon.png">
+
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+<link rel="stylesheet" href="assets/css/feather.css">
+
+<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
+
+<link rel="stylesheet" href="assets/plugins/owl-carousel/owl.carousel.min.css">
+
+<link rel="stylesheet" href="assets/plugins/daterangepicker/daterangepicker.css">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="main-wrapper">
+
+<div class="header">
+
+<div class="header-left">
+<a href="index.html" class="logo">
+<img src="assets/img/logo.png" alt="Logo">
+</a>
+<a href="index.html" class="logo logo-small">
+<img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+</a>
+<a href="javascript:void(0);" id="toggle_btn">
+<i class="feather-chevrons-left"></i>
+</a>
+</div>
+
+
+<div class="top-nav-search">
+<div class="main">
+<form class="search" method="post" action="https://doccure-html.dreamguystech.com/template/admin/index.html">
+<div class="s-icon"><i class="fas fa-search"></i></div>
+<input type="text" class="form-control" placeholder="Start typing your Search..." />
+<ul class="results">
+<li>
+<h6><i class="feather-calendar me-1"></i> Appointments</h6>
+<p>No matched Appointment found. <a href="index.html"><span>View all</span></a></p>
+</li>
+<li>
+<h6><i class="feather-calendar me-1"></i> Specialities</h6>
+<p>No matched Appointment found. <a href="index.html"><span>View all</span></a></p>
+</li>
+<li>
+<h6><i class="feather-user me-1"></i> Doctors</h6>
+<p>No matched Appointment found. <a href="index.html"><span>View all</span></a></p>
+</li>
+<li>
+<h6><i class="feather-users me-1"></i> Patients</h6>
+<p>No matched Appointment found. <a href="index.html"><span>View all</span></a></p>
+</li>
+</ul>
+</form>
+</div>
+</div>
+
+
+<a class="mobile_btn" id="mobile_btn">
+<i class="fas fa-bars"></i>
+</a>
+
+
+<ul class="nav nav-tabs user-menu">
+
+<li class="nav-item">
+<a href="#" id="dark-mode-toggle" class="dark-mode-toggle">
+<i class="feather-sun light-mode"></i><i class="feather-moon dark-mode"></i>
+</a>
+</li>
+
+
+<li class="nav-item dropdown noti-nav">
+<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+<i class="feather-bell"></i> <span class="badge"></span>
+</a>
+<div class="dropdown-menu notifications">
+<div class="topnav-dropdown-header">
+<span class="notification-title">Notifications</span>
+<a href="javascript:void(0)" class="clear-noti"><i class="feather-more-vertical"></i></a>
+</div>
+<div class="noti-content">
+<ul class="notification-list">
+<li class="notification-message">
+<a href="#">
+<div class="media d-flex">
+<span class="avatar">
+<img class="avatar-img" alt="" src="assets/img/profiles/avatar-02.jpg">
+</span>
+<div class="media-body">
+<h6>Travis Tremble <span class="notification-time">18.30 PM</span></h6>
+<p class="noti-details">Sent a amount of $210 for his Appointment <span class="noti-title">Dr.Ruby perin </span></p>
+</div>
+</div>
+</a>
+</li>
+<li class="notification-message">
+<a href="#">
+<div class="media d-flex">
+<span class="avatar">
+<img class="avatar-img" alt="" src="assets/img/profiles/avatar-05.jpg">
+</span>
+<div class="media-body">
+<h6>Travis Tremble <span class="notification-time">12 Min Ago</span></h6>
+<p class="noti-details"> has booked her appointment to <span class="noti-title">Dr. Hendry Watt</span></p>
+</div>
+</div>
+</a>
+</li>
+<li class="notification-message">
+<a href="#">
+<div class="media d-flex">
+<div class="avatar">
+<img class="avatar-img" alt="" src="assets/img/profiles/avatar-03.jpg">
+</div>
+<div class="media-body">
+<h6>Travis Tremble <span class="notification-time">6 Min Ago</span></h6>
+<p class="noti-details"> Sent a amount $210 for his Appointment <span class="noti-title">Dr.Maria Dyen</span></p>
+</div>
+</div>
+</a>
+</li>
+<li class="notification-message">
+<a href="#">
+<div class="media d-flex">
+<div class="avatar avatar-sm">
+<img class="avatar-img" alt="" src="assets/img/profiles/avatar-06.jpg">
+</div>
+<div class="media-body">
+<h6>Travis Tremble <span class="notification-time">8.30 AM</span></h6>
+<p class="noti-details"> Send a message to his doctor</p>
+</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+
+
+<li class="nav-item dropdown main-drop">
+<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+<span class="user-img">
+<img src="assets/img/profiles/avatar-01.jpg" alt="">
+<span class="status online"></span>
+</span>
+</a>
+<div class="dropdown-menu">
+<div class="user-header">
+<div class="avatar avatar-sm">
+<img src="assets/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+</div>
+<div class="user-text">
+<h6>Robert Haddin</h6>
+<p class="text-muted mb-0">Administrator</p>
+</div>
+</div>
+<a class="dropdown-item" href="profile.html"><i class="feather-user me-1"></i> My Profile</a>
+<a class="dropdown-item" href="profile.html"><i class="feather-edit me-1"></i> Edit Profile</a>
+<a class="dropdown-item" href="account-settings.html"><i class="feather-sliders me-1"></i> Account Settings</a>
+<hr class="my-0 ms-2 me-2">
+<a class="dropdown-item" href="login.html"><i class="feather-log-out me-1"></i> Logout</a>
+</div>
+</li>
+
+</ul>
+
+</div>
+
+
+<div class="sidebar" id="sidebar">
+<div class="sidebar-inner slimscroll">
+<div id="sidebar-menu" class="sidebar-menu">
+<ul>
+<li class="menu-title"><span>Main</span></li>
+<li class="active">
+<a href="index.html"><i class="feather-grid"></i> <span>Dashboard</span></a>
+</li>
+<li>
+<a href="upcoming-appointments.html"><i class="feather-calendar"></i> <span>Appointments</span></a>
+</li>
+<li>
+<a href="specialities.html"><i class="feather-package"></i> <span>Specialities</span></a>
+</li>
+<li>
+<a href="doctor-list.html"><i class="feather-user-plus"></i> <span>Doctors</span></a>
+</li>
+<li>
+<a href="patient-list.html"><i class="feather-users"></i> <span>Patients</span></a>
+</li>
+<li>
+<a href="ratings.html"><i class="feather-star"></i> <span>Reviews</span></a>
+</li>
+<li>
+<a href="transaction.html"><i class="feather-credit-card"></i> <span>Transactions</span></a>
+</li>
+<li>
+<a href="settings.html"><i class="feather-sliders"></i> <span> Settings</span></a>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-file-text"></i> <span> Reports</span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="appointment-report.html">Appointment Report</a></li>
+<li><a href="income-report.html">Income Report</a></li>
+<li><a href="invoice-report.html">Invoice Report</a></li>
+<li><a href="user-reports.html">Users Report</a></li>
+</ul>
+</li>
+<li class="menu-title">
+<span>Pharmacy</span>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-file-plus"></i> <span> Pharmacies</span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="pharmacy-list.html">All Pharmacies</a></li>
+<li><a href="pharmacy-category.html">Categories</a></li>
+</ul>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-shopping-cart"></i> <span> Product List</span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="product-list.html">All Products</a></li>
+<li><a href="product-category.html">Categories</a></li>
+</ul>
+</li>
+<li class="menu-title">
+<span>Blog</span>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-grid"></i> <span> Blog</span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="active-blog.html">Blogs</a></li>
+<li><a href="blog-details.html">Blog Details</a></li>
+<li><a href="add-blog.html">Add Blog</a></li>
+<li><a href="edit-blog.html">Edit Blog</a></li>
+</ul>
+</li>
+<li class="menu-title">
+<span>Pages</span>
+</li>
+<li>
+<a href="add-profile.html"><i class="feather-user"></i> <span>Profile</span></a>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-lock"></i> <span> Authentication </span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="login.html"> Login </a></li>
+<li><a href="register.html"> Register </a></li>
+<li><a href="forgot-password.html"> Forgot Password </a></li>
+<li><a href="lock-screen.html"> Lock Screen </a></li>
+</ul>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-book-open"></i> <span> Error Pages </span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="error-404.html">404 Error </a></li>
+<li><a href="error-500.html">500 Error </a></li>
+</ul>
+</li>
+<li>
+<a href="blank-page.html"><i class="feather-clipboard"></i> <span>Blank Page</span></a>
+</li>
+<li class="menu-title">
+<span>UI Interface</span>
+</li>
+<li>
+<a href="components.html"><i class="feather-pocket"></i> <span>Components</span></a>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-file-minus"></i> <span> Forms </span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="form-basic-inputs.html">Basic Inputs </a></li>
+<li><a href="form-input-groups.html">Input Groups </a></li>
+<li><a href="form-horizontal.html">Horizontal Form </a></li>
+<li><a href="form-vertical.html"> Vertical Form </a></li>
+<li><a href="form-mask.html">Form Mask </a></li>
+<li><a href="form-validation.html">Form Validation </a></li>
+ </ul>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-align-justify"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="tables-basic.html">Basic Tables </a></li>
+<li><a href="data-tables.html">Data Table </a></li>
+</ul>
+</li>
+<li class="submenu">
+<a href="javascript:void(0);"><i class="feather-life-buoy"></i> <span>Multi Level</span> <span class="menu-arrow"></span></a>
+<ul style="display: none;">
+<li class="submenu">
+<a href="javascript:void(0);"> <span>Level 1</span> <span class="menu-arrow"></span></a>
+<ul style="display: none;">
+<li><a href="javascript:void(0);"><span>Level 2</span></a></li>
+<li class="submenu">
+<a href="javascript:void(0);"> <span> Level 2</span> <span class="menu-arrow"></span></a>
+<ul style="display: none;">
+<li><a href="javascript:void(0);">Level 3</a></li>
+<li><a href="javascript:void(0);">Level 3</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);"> <span>Level 2</span></a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:void(0);"> <span>Level 1</span></a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="page-wrapper">
+<div class="content container-fluid pb-0">
+<h4 class="mb-3">Overview</h4>
+<div class="row">
+<div class="col-xl-3 col-sm-6 col-12">
+<div class="card">
+<div class="card-body">
+<div class="dash-widget-header">
+<span class="dash-widget-icon bg-primary">
+<i class="feather-user-plus"></i>
+</span>
+<div class="dash-count">
+<h5 class="dash-title">Doctors</h5>
+<div class="dash-counts">
+<p>4505</p>
+</div>
+</div>
+</div>
+<p class="trade-level mb-0"><span class="text-danger me-1"><i class="fas fa-caret-down me-1"></i>1.15%</span> last week</p>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-sm-6 col-12">
+<div class="card">
+<div class="card-body">
+<div class="dash-widget-header">
+<span class="dash-widget-icon bg-blue">
+<i class="feather-users"></i>
+</span>
+<div class="dash-count">
+<h5 class="dash-title">Patients</h5>
+<div class="dash-counts">
+<p>2000</p>
+</div>
+</div>
+</div>
+<p class="trade-level mb-0"><span class="text-success me-1"><i class="fas fa-caret-up me-1"></i>4.5%</span> last week</p>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-sm-6 col-12">
+<div class="card">
+<div class="card-body">
+<div class="dash-widget-header">
+<span class="dash-widget-icon bg-warning">
+<img src="assets/img/icon/calendar.png" alt="User Image">
+</span>
+<div class="dash-count">
+<h5 class="dash-title">Appointment</h5>
+<div class="dash-counts">
+<p>4500</p>
+</div>
+</div>
+</div>
+<p class="trade-level mb-0"><span class="text-success me-1"><i class="fas fa-caret-up me-1"></i>9.65%</span> last week</p>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-sm-6 col-12">
+<div class="card">
+<div class="card-body">
+<div class="dash-widget-header">
+<span class="dash-widget-icon bg-danger">
+<img src="assets/img/icon/chart.png" alt="User Image">
+</span>
+<div class="dash-count">
+<h5 class="dash-title">Revenue</h5>
+<div class="dash-counts">
+<p>$62523</p>
+</div>
+</div>
+</div>
+<p class="trade-level mb-0"><span class="text-danger me-1"><i class="fas fa-caret-up me-1"></i>40.5%</span> last week</p>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+
+<div class="col-xl-7 d-flex">
+<div class="card flex-fill">
+<div class="card-header">
+<div class="row align-items-center">
+<div class="col">
+<h5 class="card-title">Appointments</h5>
+</div>
+<div class="col-auto d-flex">
+<select class="select">
+<option>2022</option>
+<option>2022</option>
+</select>
+<div class="ms-2">
+<select class="select">
+<option>Select Type</option>
+<option>Video</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="card-body">
+<div id="sales_chart"></div>
+</div>
+</div>
+</div>
+
+
+<div class="col-xl-5 d-flex">
+<div class="card flex-fill">
+<div class="card-header">
+<div class="row align-items-center">
+<div class="col">
+<h5 class="card-title">Income Report</h5>
+</div>
+<div class="col-auto d-flex">
+<select class="select">
+<option>Monthly</option>
+<option>Weekly</option>
+</select>
+</div>
+</div>
+</div>
+<div class="card-body">
+<div class="text-end w-100">
+<div class="income-rev">Total Revenue : <span>$451254K</span></div>
+</div>
+<div id="income-report"></div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<div class="section-heading">
+<h5 class="mb-0">Today’s Appointment <span class="num-circle">12</span></h5>
+</div>
+</div>
+<div class="col-md-6 text-end">
+<div class="owl-nav slide-nav-3 text-end nav-control"></div>
+</div>
+<div class="col-md-12">
+<hr class="mt-0">
+<div class="owl-carousel appointment-slider owl-theme">
+<div class="item">
+<div class="appointment-item">
+<div class="app-head">
+<p>Consultation ID : #4544478 </p>
+<div class="con-time">50 Min</div>
+</div>
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img justify-content-sm-end">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-info">
+<div>
+<p>Today</p>
+<h6>08:00am - 08:50pm</h6>
+</div>
+<div>
+<p>Booked on</p>
+<h6 class="fw-normal">12/11/2022, 05:30PM</h6>
+</div>
+</div>
+<div class="app-footer">
+<div class="app-mode">
+<p>Mode of Consultation</p>
+<a href="#" class="mode-box text-danger"><i class="feather-video"></i></a>
+</div>
+<h6>$30.00K</h6>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="appointment-item">
+<div class="app-head">
+<p>Consultation ID : #9789845 </p>
+<div class="con-time">20 Min</div>
+</div>
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-06.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Monroe</h6>
+<p>Hair Specialities</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img justify-content-sm-end">
+<img src="assets/img/profiles/avatar-07.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Bess Twishes</h6>
+<p>ID : 787787, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-info">
+<div>
+<p>Today</p>
+<h6>06:00pm - 06:20pm</h6>
+</div>
+<div>
+<p>Booked on</p>
+<h6 class="fw-normal">06/11/2022, 04:30PM</h6>
+</div>
+</div>
+<div class="app-footer">
+<div class="app-mode">
+<p>Mode of Consultation</p>
+<a href="#" class="mode-box text-yellow"><i class="feather-mic"></i></a>
+</div>
+<h6>$30.00K</h6>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="appointment-item">
+<div class="app-head">
+<p>Consultation ID : #9795754</p>
+<div class="con-time">40 Min</div>
+</div>
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Clint </h6>
+<p>Neurology</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img justify-content-sm-end">
+<img src="assets/img/profiles/avatar-08.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>James Aaron</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-info">
+<div>
+<p>Today</p>
+<h6>12:00pm - 12:40pm</h6>
+</div>
+<div>
+<p>Booked on</p>
+<h6 class="fw-normal">12/11/2022, 04:30PM</h6>
+</div>
+</div>
+<div class="app-footer">
+<div class="app-mode">
+<p>Mode of Consultation</p>
+<a href="#" class="mode-box text-primary"><i class="feather-message-square"></i></a>
+</div>
+<h6>$30.00K</h6>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="appointment-item">
+<div class="app-head">
+<p>Consultation ID : #4544478 </p>
+<div class="con-time">50 Min</div>
+</div>
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img justify-content-sm-end">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+ </div>
+</div>
+</div>
+<div class="app-info">
+<div>
+<p>Today</p>
+<h6>08:00am - 08:50pm</h6>
+</div>
+<div>
+<p>Booked on</p>
+<h6 class="fw-normal">12/11/2022, 05:30PM</h6>
+</div>
+</div>
+<div class="app-footer">
+<div class="app-mode">
+<p>Mode of Consultation</p>
+<a href="#" class="mode-box text-danger"><i class="feather-video"></i></a>
+</div>
+<h6>$30.00K</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+
+<div class="col-lg-8">
+<div class="card">
+<div class="card-header border-bottom-0">
+<div class="row align-items-center">
+<div class="col">
+<h5 class="card-title">Recent Patient Activity</h5>
+</div>
+<div class="col-auto d-flex">
+<div class="bookingrange btn btn-white btn-sm">
+<div class="cal-ico">
+<span>Select Date</span>
+<i class="feather-chevron-down ms-1"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="card-body p-0">
+<div class="table-responsive">
+<table class="table table-borderless hover-table">
+<thead class="thead-light">
+<tr>
+<th>ID</th>
+<th>Patient</th>
+<th>Disease</th>
+<th>Member since </th>
+<th>Status</th>
+<th class="text-right"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>#4546</td>
+<td>
+<h2 class="table-avatar">
+<a href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-07.jpg" alt="User Image"></a>
+<a href="#" class="user-name">Bess Twishes <span class="text-muted">Male, 40 Years Old</span></a>
+</h2>
+</td>
+<td><span class="disease-name">Allergies & Asthma</span></td>
+<td>
+<span class="text-yellow user-name">New Patient</span>
+<span class="d-block">23 Nov 2020</span>
+</td>
+<td><span class="badge bg-badge-grey text-success"><i class="fas fa-circle me-1"></i> Enabled</span></td>
+<td class="text-right">
+<i class="feather-chevron-right"></i>
+</td>
+</tr>
+<tr>
+<td>#8774</td>
+<td>
+<h2 class="table-avatar">
+<a href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-04.jpg" alt="User Image"></a>
+<a href="#" class="user-name">Bess Twishes <span class="text-muted">Female,30 Years Old</span></a>
+</h2>
+</td>
+<td><span class="disease-name">Sleep Problem</span></td>
+<td>
+<span class="text-danger user-name">Old Patient</span>
+<span class="d-block">23 Nov 2020</span>
+</td>
+<td><span class="badge bg-badge-grey text-danger"><i class="fas fa-circle me-1"></i> Disabled</span></td>
+<td class="text-right">
+<i class="feather-chevron-right"></i>
+</td>
+</tr>
+<tr>
+<td>#4546</td>
+<td>
+<h2 class="table-avatar">
+<a href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-02.jpg" alt="User Image"></a>
+<a href="#" class="user-name">Abdul Aziz Lazis <span class="text-muted">Male, 25 Years Old</span></a>
+</h2>
+</td>
+<td><span class="disease-name">Tooth Pain</span></td>
+ <td>
+<span class="text-danger user-name">Old Patient</span>
+<span class="d-block">23 Nov 2020</span>
+</td>
+<td><span class="badge bg-badge-grey text-success"><i class="fas fa-circle me-1"></i> Enabled</span></td>
+<td class="text-right">
+<i class="feather-chevron-right"></i>
+</td>
+</tr>
+<tr>
+<td>#4546</td>
+<td>
+<h2 class="table-avatar">
+<a href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-05.jpg" alt="User Image"></a>
+<a href="#" class="user-name">Alex Siauw <span class="text-muted">Male, 29 Years Old</span></a>
+</h2>
+</td>
+<td><span class="disease-name">Pain on knee</span></td>
+<td>
+<span class="text-yellow user-name">New Patient</span>
+<span class="d-block">23 Nov 2020</span>
+</td>
+<td><span class="badge bg-badge-grey text-success"><i class="fas fa-circle me-1"></i> Enabled</span></td>
+<td class="text-right">
+<i class="feather-chevron-right"></i>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-lg-4">
+<div class="card">
+<div class="card-header">
+<div class="row">
+<div class="col">
+<h5 class="card-title">Top Doctors</h5>
+</div>
+</div>
+</div>
+<div class="card-body p-0">
+<div class="table-responsive">
+<table class="table doc-table">
+<tbody>
+<tr>
+<td>
+<h2 class="table-avatar">
+<a class="avatar-pos avatar-online" href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-05.jpg" alt="User Image"></a>
+<a href="#" class="user-name"><span class="text-muted">Dr. Rayan</span> <span class="tab-subtext">Gyanoclogist</span></a>
+</h2>
+</td>
+<td><span class="table-rating"><i class="fas fa-star me-2"></i> 4.5</span></td>
+<td class="text-right"><span class="text-muted">200 Patients</span></td>
+</tr>
+<tr>
+<td>
+<h2 class="table-avatar">
+<a class="avatar-pos avatar-online" href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-10.jpg" alt="User Image"></a>
+<a href="#" class="user-name"><span class="text-muted">Dr. Bea</span> <span class="tab-subtext">Dentist</span></a>
+</h2>
+</td>
+<td><span class="table-rating"><i class="fas fa-star me-2"></i> 4.9</span></td>
+<td class="text-right"><span class="text-muted">180 Patients</span></td>
+</tr>
+<tr>
+<td>
+<h2 class="table-avatar">
+<a class="avatar-pos avatar-offline" href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-11.jpg" alt="User Image"></a>
+<a href="#" class="user-name"><span class="text-muted">Dr. Monroe</span> <span class="tab-subtext">Hair Specialities</span></a>
+</h2>
+</td>
+<td><span class="table-rating"><i class="fas fa-star me-2"></i> 4.8</span></td>
+<td class="text-right"><span class="text-muted">160 Patients</span></td>
+</tr>
+<tr>
+<td>
+<h2 class="table-avatar">
+<a class="avatar-pos avatar-offline" href="profile.html"><img class="avatar avatar-img" src="assets/img/profiles/avatar-13.jpg" alt="User Image"></a>
+<a href="#" class="user-name"><span class="text-muted">Dr. Lester</span> <span class="tab-subtext">Orthopaedics</span></a>
+</h2>
+</td>
+<td><span class="table-rating"><i class="fas fa-star me-2"></i> 4.7</span></td>
+<td class="text-right"><span class="text-muted">140 Patients</span></td>
+</tr>
+<tr>
+<td>
+<h2 class="table-avatar">
+<a class="empty-user" href="profile.html"><i class="feather-user"></i> </a>
+<a href="#" class="user-name"><span class="text-muted">Dr. Clint</span> <span class="tab-subtext">Neurology</span></a>
+</h2>
+</td>
+<td><span class="table-rating"><i class="fas fa-star me-2"></i> 4.6</span></td>
+<td class="text-right"><span class="text-muted">120 Patients</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="row">
+
+<div class="col-xl-4 col-md-6">
+<div class="card">
+<div class="card-header">
+<div class="row align-items-center">
+<div class="col">
+<h5 class="card-title">Popular by Speciality </h5>
+</div>
+<div class="col-auto">
+<select class="select">
+<option>This Week</option>
+<option>This Month</option>
+</select>
+</div>
+</div>
+</div>
+<div class="card-body p-0">
+<div class="table-responsive">
+<table class="table table-borderless">
+<tbody>
+<tr class="speciality-item">
+<td class="spl-name">
+<div class="spl-box">
+<img src="assets/img/icon/urology.png" alt="User Image">
+</div>
+<div class="spl-count">
+<h6>Urology</h6>
+<p>Patients : 400</p>
+</div>
+</td>
+<td class="con-revenue">
+<p class="text-muted">Revenue</p>
+<h6>$6000K</h6>
+</td>
+<td class="spl-consult">
+<p class="text-muted">Consultations</p>
+<h6>200</h6>
+</td>
+</tr>
+<tr class="speciality-item">
+<td class="spl-name">
+<div class="spl-box">
+<img src="assets/img/icon/neurology.png" alt="User Image">
+</div>
+<div class="spl-count">
+<h6>Neurology</h6>
+<p>Patients : 980 </p>
+</div>
+</td>
+<td class="con-revenue">
+<p class="text-muted">Revenue</p>
+<h6>$6000K</h6>
+</td>
+<td class="spl-consult">
+<p class="text-muted">Consultations</p>
+<h6>98</h6>
+</td>
+</tr>
+<tr class="speciality-item">
+<td class="spl-name">
+<div class="spl-box">
+<img src="assets/img/icon/ortho.png" alt="User Image">
+</div>
+<div class="spl-count">
+<h6>Orthopedic</h6>
+<p>Patients : 600</p>
+</div>
+</td>
+<td class="con-revenue">
+<p class="text-muted">Revenue</p>
+<h6>$6000K</h6>
+</td>
+<td class="spl-consult">
+<p class="text-muted">Consultations</p>
+<h6>78</h6>
+</td>
+</tr>
+<tr class="speciality-item">
+<td class="spl-name">
+<div class="spl-box">
+<img src="assets/img/icon/cardio.png" alt="User Image">
+</div>
+<div class="spl-count">
+<h6>Urology</h6>
+<p>Patients : 400</p>
+</div>
+</td>
+<td class="con-revenue">
+<p class="text-muted">Revenue</p>
+<h6>$6000K</h6>
+</td>
+<td class="spl-consult">
+<p class="text-muted">Consultations</p>
+<h6>65</h6>
+</td>
+</tr>
+<tr class="speciality-item">
+<td class="spl-name">
+<div class="spl-box">
+<img src="assets/img/icon/dental.png" alt="User Image">
+</div>
+<div class="spl-count">
+<h6>Urology</h6>
+<p>Patients : 400</p>
+</div>
+</td>
+<td class="con-revenue">
+<p class="text-muted">Revenue</p>
+<h6>$6000K</h6>
+</td>
+<td class="spl-consult">
+<p class="text-muted">Consultations</p>
+<h6>59</h6>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-xl-4 col-md-6">
+<div class="row">
+<div class="col-md-6 pe-md-0">
+<div class="card cons-card mb-3">
+<h6>Consultaion Today</h6>
+<div id="income-month"></div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card pat-card mb-1">
+<div class="card-body">
+<p>New Patients</p>
+<h3>45</h3>
+<p class="trade-level mb-0"><span class="text-danger me-1"><i class="fas fa-caret-down me-1"></i>1.15%</span> last week</p>
+</div>
+</div>
+<div class="card pat-card mb-3">
+<div class="card-body">
+<p>Old Patients</p>
+<h3>45</h3>
+<p class="trade-level mb-0"><span class="text-success me-1"><i class="fas fa-caret-up me-1"></i>9.5%</span> last week</p>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+<div class="card">
+<div class="card-header">
+<div class="row align-items-center">
+<div class="col">
+<h5 class="card-title">Appointment Status</h5>
+</div>
+<div class="col-auto">
+<select class="select">
+<option>This Week</option>
+<option>This Month</option>
+</select>
+</div>
+</div>
+</div>
+<div class="card-body">
+<div class="row">
+<div class="col-md-6">
+<div id="status_chart"></div>
+</div>
+<div class="col-md-6">
+<div class="app-status">
+<p>Completed Appointment</p>
+<h6 class="text-primary">650</h6>
+<p>Cancelled Appointment</p>
+<h6>250</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-xl-4">
+<div class="card">
+<div class="card-header">
+<div class="row">
+<div class="col">
+<h5 class="card-title">Upcoming Appointments</h5>
+</div>
+</div>
+</div>
+<div class="card-body up-content">
+<div class="nav nav-tabs">
+<div class="nav nav-tabs upcomimg-app">
+<div class="pricing-carousel owl-carousel owl-theme">
+<div class="item">
+<div class="price-list active">
+<a class="active" data-bs-toggle="tab" href="#home">
+Sun
+<span>28th</span>
+</a>
+</div>
+</div>
+<div class="item">
+<div class="nav-item price-list">
+<a data-bs-toggle="tab" href="#menu1">
+ Mon
+<span>28th</span>
+</a>
+</div>
+</div>
+<div class="item">
+<div class="price-list">
+<a data-bs-toggle="tab" href="#menu2">
+Tue
+<span>November 30</span>
+</a>
+</div>
+</div>
+<div class="item">
+<div class="price-list">
+<a data-bs-toggle="tab" href="#menu3">
+Wed
+<span>1st</span>
+</a>
+</div>
+</div>
+<div class="item">
+<div class="price-list">
+<a data-bs-toggle="tab" href="#menu4">
+Thu
+<span>2nd</span>
+</a>
+</div>
+</div>
+<div class="item">
+<div class="price-list">
+<a data-bs-toggle="tab" href="#menu4">
+Fri
+<span>2nd</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-content upcoming-content">
+<div id="home" class="tab-pane in active">
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-09.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Rayan </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-13.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-08.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Leo </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="menu1" class="tab-pane">
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-07.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Rayan </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-08.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-6 col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+ </div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-6 col-sm-4">
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-6 col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="menu2" class="tab-pane">
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="menu3" class="tab-pane">
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-12.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Alex </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+ <div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-13.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Abdul Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="menu4" class="tab-pane">
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+ <div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="menu5" class="tab-pane">
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-03.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Shofia </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-10.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Harris Chris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-6">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-6">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-4">
+<div class="float-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="menu6" class="tab-pane">
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-sm-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="menu7" class="tab-pane">
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-end"> 
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+</div>
+</div>
+<div class="appointment-items">
+<div class="app-user">
+<div class="row">
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-02.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Dr. Lester </h6>
+<p>Orthopaedics</p>
+</div>
+</div>
+</div>
+<div class="col-6">
+<div class="app-img">
+<img src="assets/img/profiles/avatar-05.jpg" alt="" class="img-fluid">
+<div class="app-name">
+<h6>Chris Harris</h6>
+<p>ID : 781212, M</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="app-time">
+<p><i class="feather-clock me-1"></i> 06:00pm - 06:20pm</p>
+</div>
+<div class="app-infos">
+<div class="row align-items-center">
+<div class="col-4 col-sm-4">
+<p>Duration</p>
+<p class="mb-0">20 Min</p>
+</div>
+<div class="col-8 col-sm-4">
+<p>Consultation Fee</p>
+<h6>$30.00K</h6>
+</div>
+<div class="col-sm-4">
+<div class="float-end">
+<div class="mode-app text-yellow">
+<i class="feather-video"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="row">
+
+<div class="col-xl-4 col-md-6">
+<div class="card recent-card">
+<div class="card-header">
+<div class="row">
+<div class="col">
+<h5 class="card-title">Recent Prescriptions</h5>
+</div>
+</div>
+</div>
+<div class="card-body">
+<div class="table-responsive recent-tab">
+<table class="table table-borderless">
+<tbody>
+<tr>
+<td>
+<div class="pres-list">
+ <div class="pres-head">
+<h6>Abacavir</h6>
+<p>#8995447</p>
+</div>
+<div class="pres-body">
+<div>
+<p>Prescribed By </p>
+<h6>Dr. Cullin Drew</h6>
+</div>
+<div>
+<p>Prescribed For</p>
+<h6>Amanda</h6>
+</div>
+<div>
+<p>Type </p>
+<h6 class="text-muted">One time</h6>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="pres-list">
+<div class="pres-head">
+<h6>Calcium</h6>
+<p>#8799488</p>
+</div>
+<div class="pres-body">
+<div>
+<p>Prescribed By </p>
+<h6>Dr. Mark Briffa</h6>
+</div>
+<div>
+<p>Prescribed For</p>
+<h6>Theiry</h6>
+</div>
+<div>
+<p>Type </p>
+<h6 class="text-muted">One time</h6>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="pres-list mb-0">
+<div class="pres-head">
+<h6>Abacavir</h6>
+<p>#8995447</p>
+</div>
+<div class="pres-body">
+<div>
+<p>Prescribed By </p>
+<h6>Dr. Linda</h6>
+</div>
+<div>
+<p>Prescribed For</p>
+<h6>Hendry</h6>
+</div>
+<div>
+<p>Type </p>
+<h6 class="text-muted">One time</h6>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-xl-4 col-md-6">
+<div class="card">
+<div class="card-header">
+<div class="row align-items-center">
+<div class="col">
+<h5 class="card-title">Top Countries</h5>
+</div>
+<div class="col-auto">
+<select class="select">
+<option>Patients</option>
+<option>Doctors</option>
+</select>
+</div>
+</div>
+</div>
+<div class="card-body">
+<div class="country-item">
+<div class="con-name">
+<div class="flag-box">
+<img class="rounded-circle" src="assets/img/flags/flag-01.png" alt="User Image">
+</div>
+<div class="flag-name">
+<p class="user-name"><span>United States</span> <span class="d-block text-muted">800 Patients</span></p>
+</div>
+</div>
+<div class="con-revenue">
+<p class="text-muted">Revenue</p>
+<h6>$6000K</h6>
+</div>
+</div>
+<div class="country-item">
+<div class="con-name">
+<div class="flag-box">
+<img class="rounded-circle" src="assets/img/flags/flag-02.png" alt="User Image">
+</div>
+<div class="flag-name">
+<p class="user-name"><span>United Kingdom</span> <span class="d-block text-muted">450 Patients</span></p>
+</div>
+</div>
+<div class="con-revenue">
+<p class="text-muted">Revenue</p>
+<h6>$4000K</h6>
+</div>
+</div>
+<div class="country-item">
+<div class="con-name">
+<div class="flag-box">
+<img class="rounded-circle" src="assets/img/flags/flag-03.png" alt="User Image">
+</div>
+<div class="flag-name">
+<p class="user-name"><span>UAE</span> <span class="d-block text-muted">300 Patients</span></p>
+</div>
+</div>
+<div class="con-revenue">
+<p class="text-muted">Revenue</p>
+<h6>$3000K</h6>
+</div>
+</div>
+<div class="country-item">
+<div class="con-name">
+<div class="flag-box">
+<img class="rounded-circle" src="assets/img/flags/flag-04.png" alt="User Image">
+</div>
+<div class="flag-name">
+<p class="user-name"><span>India</span> <span class="d-block text-muted">300 Patients</span></p>
+</div>
+</div>
+<div class="con-revenue">
+<p class="text-muted">Revenue</p>
+<h6>$3000K</h6>
+</div>
+</div>
+<div class="country-item">
+<div class="con-name">
+<div class="flag-box">
+<img class="rounded-circle" src="assets/img/flags/flag-05.png" alt="User Image">
+</div>
+<div class="flag-name">
+<p class="user-name"><span>UAE</span> <span class="d-block text-muted">300 Patients</span></p>
+</div>
+</div>
+<div class="con-revenue">
+<p class="text-muted">Revenue</p>
+<h6>$3000K</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col-xl-4">
+<div class="row">
+<div class="col-sm-6 d-flex">
+<div class="spl-items flex-fill">
+<a href="ratings.html">
+<i class="feather-star"></i>
+<h6>Doctor Ratings</h6>
+</a>
+</div>
+</div>
+<div class="col-sm-6 d-flex">
+<div class="spl-items flex-fill">
+<a href="transaction.html">
+<i class="feather-credit-card"></i>
+<h6>Transactions</h6>
+</a>
+</div>
+</div>
+<div class="col-sm-6 d-flex">
+<div class="spl-items flex-fill">
+<a href="settings.html">
+<i class="feather-sliders"></i>
+<h6>Settings</h6>
+</a>
+</div>
+</div>
+<div class="col-sm-6 d-flex">
+<div class="spl-items flex-fill">
+<a href="upcoming-appointments.html">
+<i class="feather-calendar"></i>
+<h6>Appointments</h6>
+</a>
+</div>
+</div>
+<div class="col-sm-6 d-flex">
+<div class="spl-items flex-fill">
+<a href="specialities.html">
+<i class="feather-package"></i>
+<h6>Specialities</h6>
+</a>
+</div>
+</div>
+<div class="col-sm-6 d-flex">
+<div class="spl-items flex-fill">
+<a href="patient-list.html">
+<i class="feather-users"></i>
+<h6>Patients</h6>
+</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<script src="assets/js/feather.min.js"></script>
+
+<script src="assets/plugins/select2/js/select2.min.js"></script>
+
+<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+
+<script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+<script src="assets/plugins/apexchart/chart-data.js"></script>
+
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/plugins/daterangepicker/daterangepicker.js"></script>
+
+<script src="assets/js/script.js"></script>
+</body>
+
+<!-- Mirrored from doccure-html.dreamguystech.com/template/admin/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Dec 2022 12:40:37 GMT -->
+</html>

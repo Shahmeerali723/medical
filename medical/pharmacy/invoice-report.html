@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from doccure-html.dreamguystech.com/template/pharmacy/invoice-report.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Dec 2022 12:43:40 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+<title>Doccure - Invoice Reports Page</title>
+
+<link rel="shortcut icon" href="assets/img/favicon.png">
+
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+<link rel="stylesheet" href="assets/css/feather.css">
+
+<link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css">
+
+<link rel="stylesheet" href="assets/plugins/datatables/datatables.min.css">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="main-wrapper">
+
+<div class="header">
+
+<div class="header-left">
+<a href="index.html" class="logo">
+<img src="assets/img/logo.png" alt="Logo">
+</a>
+<a href="index.html" class="logo logo-small">
+<img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+</a>
+<a href="javascript:void(0);" id="toggle_btn">
+<i class="feather-chevrons-left"></i>
+</a>
+</div>
+
+
+<div class="top-nav-search">
+<div class="main">
+<form class="search" method="post" action="https://doccure-html.dreamguystech.com/template/pharmacy/index.html">
+<button class="btn" type="submit"><i class="fa fa-search"></i></button>
+<input type="text" class="form-control" placeholder="Search here...">
+</form>
+</div>
+</div>
+
+
+<a class="mobile_btn" id="mobile_btn">
+<i class="fas fa-bars"></i>
+</a>
+
+
+<ul class="nav nav-tabs user-menu">
+
+<li class="nav-item">
+<a href="#" id="dark-mode-toggle" class="dark-mode-toggle">
+<i class="feather-sun light-mode"></i><i class="feather-moon dark-mode"></i>
+</a>
+</li>
+
+
+<li class="nav-item dropdown noti-nav">
+<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+<i class="feather-bell"></i> <span class="badge"></span>
+</a>
+<div class="dropdown-menu notifications">
+<div class="topnav-dropdown-header">
+<span class="notification-title">Notifications</span>
+<a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+</div>
+<div class="noti-content">
+<ul class="notification-list">
+<li class="notification-message">
+<a href="#">
+<div class="media d-flex">
+<span class="avatar">
+<img class="avatar-img" alt="" src="assets/img/profiles/avatar-02.jpg">
+</span>
+<div class="media-body">
+<h6>Travis Tremble <span class="notification-time">18.30 PM</span></h6>
+<p class="noti-details">Sent a amount of $210 for his Appointment <span class="noti-title">Dr.Ruby perin </span></p>
+</div>
+</div>
+</a>
+</li>
+<li class="notification-message">
+<a href="#">
+<div class="media d-flex">
+<span class="avatar">
+<img class="avatar-img" alt="" src="assets/img/profiles/avatar-05.jpg">
+</span>
+<div class="media-body">
+<h6>Travis Tremble <span class="notification-time">12 Min Ago</span></h6>
+<p class="noti-details"> has booked her appointment to <span class="noti-title">Dr. Hendry Watt</span></p>
+</div>
+</div>
+</a>
+</li>
+<li class="notification-message">
+<a href="#">
+<div class="media d-flex">
+<div class="avatar">
+<img class="avatar-img" alt="" src="assets/img/profiles/avatar-03.jpg">
+</div>
+<div class="media-body">
+<h6>Travis Tremble <span class="notification-time">6 Min Ago</span></h6>
+<p class="noti-details"> Sent a amount $210 for his Appointment <span class="noti-title">Dr.Maria Dyen</span></p>
+</div>
+</div>
+</a>
+</li>
+<li class="notification-message">
+<a href="#">
+<div class="media d-flex">
+<div class="avatar avatar-sm">
+<img class="avatar-img" alt="" src="assets/img/profiles/avatar-06.jpg">
+</div>
+<div class="media-body">
+<h6>Travis Tremble <span class="notification-time">8.30 AM</span></h6>
+<p class="noti-details"> Send a message to his doctor</p>
+</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+<div class="topnav-dropdown-footer">
+<a href="#">View all Notifications</a>
+</div>
+</div>
+</li>
+
+
+<li class="nav-item dropdown main-drop">
+<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+<span class="user-img">
+<img src="assets/img/profiles/avatar-01.jpg" alt="">
+<span class="status online"></span>
+</span>
+</a>
+<div class="dropdown-menu">
+<div class="user-header">
+<div class="avatar avatar-sm">
+<img src="assets/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+</div>
+<div class="user-text">
+<h6>Robert Haddin</h6>
+<p class="text-muted mb-0">Administrator</p>
+</div>
+</div>
+<a class="dropdown-item" href="profile.html"><i class="feather-user me-1"></i> My Profile</a>
+<a class="dropdown-item" href="settings.html"><i class="feather-sliders me-1"></i>Settings</a>
+<hr class="my-0 ms-2 me-2">
+<a class="dropdown-item" href="index.html"><i class="feather-log-out me-1"></i> Logout</a>
+</div>
+</li>
+
+</ul>
+
+</div>
+
+
+<div class="sidebar" id="sidebar">
+<div class="sidebar-inner slimscroll">
+<div id="sidebar-menu" class="sidebar-menu">
+<ul>
+<li class="menu-title"><span>Main</span></li>
+<li>
+<a href="index.html"><i class="feather-home"></i> <span>Dashboard</span></a>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-shopping-cart"></i> <span> Products</span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="products.html">Products</a></li>
+<li><a href="add-product.html">Add Product</a></li>
+<li><a href="outstock.html">Out Stock</a></li>
+<li><a href="expired.html">Expired</a></li>
+</ul>
+</li>
+<li>
+<a href="categories.html"><i class="feather-layout"></i> <span>Categories</span></a>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-star"></i> <span> Purchase</span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="purchase.html">Purchase</a></li>
+<li><a href="add-purchase.html">Add Purchase</a></li>
+<li><a href="order.html">Orders</a></li>
+</ul>
+</li>
+<li>
+<a href="sales.html"><i class="feather-activity"></i> <span>Sales</span></a>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-user"></i> <span> Supplier</span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="supplier.html">Supplier</a></li>
+<li><a href="add-supplier.html">Add Supplier</a></li>
+</ul>
+</li>
+<li>
+<a href="transactions-list.html"><i class="feather-credit-card"></i> <span> Transaction</span></a>
+</li>
+<li class="submenu">
+<a href="#"><i class="feather-file-text"></i> <span> Reports</span> <span class="menu-arrow"></span></a>
+<ul>
+<li><a href="invoice.html">Invoice</a></li>
+<li><a href="invoice-report.html" class="active">Invoice Reports</a></li>
+</ul>
+</li>
+<li class="menu-title">
+<span>Pages</span>
+</li>
+<li>
+<a href="profile.html"><i class="feather-user"></i> <span>Profile</span></a>
+</li>
+<li>
+<a href="settings.html"><i class="feather-sliders"></i> <span>Settings</span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div class="page-wrapper">
+<div class="content container-fluid">
+
+<div class="page-header">
+<div class="row">
+<div class="col-sm-12">
+<h3 class="page-title">Invoice Reports</h3>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-12">
+<div class="card">
+<div class="card-header border-bottom-0">
+<div class="row align-items-center">
+<div class="col">
+<h5 class="card-title">Invoice Reports List</h5>
+</div>
+<div class="col-auto custom-list d-flex">
+<div class="form-custom me-2">
+<div id="tableSearch" class="dataTables_wrapper"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="card-body p-0">
+<div class="table-responsive">
+<table class="datatable table table-borderless hover-table" id="data-table">
+<thead class="thead-light">
+<tr>
+<th>Invoice Number</th>
+<th>Medicine Name</th>
+<th>Total Amount</th>
+<th>Created Date</th>
+<th class="text-center">Status</th>
+<th class="text-end">Actions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="invoice.html">#IN0001</a></td>
+<td>
+<h2 class="table-avatar">
+<a href="#"><img class="avatar avatar-img" src="assets/img/products/product1.jpg" alt="User Image"> Abilify</a>
+</h2>
+</td>
+<td>$100.00</td>
+<td>9 Sep 2019</td>
+<td class="text-center">
+<span class="badge rounded-pill bg-success inv-badge">Paid</span>
+</td>
+<td class="text-end">
+<div class="actions">
+<a class="text-black" data-bs-toggle="modal" href="#edit_specialities_details">
+<i class="feather-edit-3 me-1"></i> Edit
+</a>
+<a data-bs-toggle="modal" href="#delete_modal" class="text-danger">
+<i class="feather-trash-2 me-1"></i> Delete
+</a>
+</div>
+</td>
+</tr>
+<tr>
+<td><a href="invoice.html">#IN0002</a></td>
+<td>
+<h2 class="table-avatar">
+<a href="#"><img class="avatar avatar-img" src="assets/img/products/product2.jpg" alt="User Image"> Actamin</a>
+</h2>
+</td>
+<td>$200.00</td>
+<td>29 Oct 2019</td>
+<td class="text-center">
+<span class="badge rounded-pill bg-success inv-badge">Paid</span>
+</td>
+<td class="text-end">
+<div class="actions">
+<a class="text-black" data-bs-toggle="modal" href="#edit_specialities_details">
+<i class="feather-edit-3 me-1"></i> Edit
+</a>
+ <a data-bs-toggle="modal" href="#delete_modal" class="text-danger">
+<i class="feather-trash-2 me-1"></i> Delete
+</a>
+</div>
+</td>
+</tr>
+<tr>
+<td><a href="invoice.html">#IN0003</a></td>
+<td>
+<h2 class="table-avatar">
+<a href="#"><img class="avatar avatar-img" src="assets/img/products/product3.jpg" alt="User Image"> Actamin</a>
+</h2>
+</td>
+<td>$250.00</td>
+<td>25 Sep 2019</td>
+<td class="text-center">
+<span class="badge rounded-pill bg-danger inv-badge">Pending</span>
+</td>
+<td class="text-end">
+<div class="actions">
+<a class="text-black" data-bs-toggle="modal" href="#edit_specialities_details">
+<i class="feather-edit-3 me-1"></i> Edit
+</a>
+<a data-bs-toggle="modal" href="#delete_modal" class="text-danger">
+<i class="feather-trash-2 me-1"></i> Delete
+</a>
+</div>
+</td>
+</tr>
+<tr>
+<td><a href="invoice.html">#IN0004</a></td>
+<td>
+<h2 class="table-avatar">
+<a href="#"><img class="avatar avatar-img" src="assets/img/products/product4.jpg" alt="User Image"> Abilify</a>
+</h2>
+</td>
+<td>$150.00</td>
+<td>9 Oct 2019</td>
+<td class="text-center">
+<span class="badge rounded-pill bg-warning inv-badge">Unpaid</span>
+</td>
+<td class="text-end">
+<div class="actions">
+<a class="text-black" data-bs-toggle="modal" href="#edit_specialities_details">
+<i class="feather-edit-3 me-1"></i> Edit
+</a>
+<a data-bs-toggle="modal" href="#delete_modal" class="text-danger">
+<i class="feather-trash-2 me-1"></i> Delete
+</a>
+</div>
+</td>
+</tr>
+<tr>
+<td><a href="invoice.html">#IN0005</a></td>
+<td>
+<h2 class="table-avatar">
+<a href="#"><img class="avatar avatar-img" src="assets/img/products/product5.jpg" alt="User Image"> Actamin</a>
+</h2>
+</td>
+<td>$350.00</td>
+<td>19 Nov 2019</td>
+<td class="text-center">
+<span class="badge rounded-pill bg-success inv-badge">Paid</span>
+</td>
+<td class="text-end">
+<div class="actions">
+<a class="text-black" data-bs-toggle="modal" href="#edit_specialities_details">
+<i class="feather-edit-3 me-1"></i> Edit
+</a>
+<a data-bs-toggle="modal" href="#delete_modal" class="text-danger">
+<i class="feather-trash-2 me-1"></i> Delete
+</a>
+</div>
+</td>
+</tr>
+<tr>
+<td><a href="invoice.html">#IN0006</a></td>
+<td>
+<h2 class="table-avatar">
+<a href="#"><img class="avatar avatar-img" src="assets/img/products/product6.jpg" alt="User Image"> Actamin</a>
+</h2>
+</td>
+<td>$300.00</td>
+<td>12 Oct 2019</td>
+<td class="text-center">
+<span class="badge rounded-pill bg-success inv-badge">Paid</span>
+</td>
+<td class="text-end">
+<div class="actions">
+<a class="text-black" data-bs-toggle="modal" href="#edit_specialities_details">
+<i class="feather-edit-3 me-1"></i> Edit
+</a>
+<a data-bs-toggle="modal" href="#delete_modal" class="text-danger">
+<i class="feather-trash-2 me-1"></i> Delete
+ </a>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="tablepagination" class="dataTables_wrapper"></div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="edit_specialities_details" aria-hidden="true" role="dialog">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content doctor-profile">
+<div class="modal-header">
+<h5 class="modal-title">Edit Invoice Report</h5>
+<button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close"><i class="feather-x-circle"></i></button>
+</div>
+<div class="modal-body">
+<form>
+<div class="row form-row">
+<div class="col-12 col-sm-6">
+<div class="form-group">
+<label>Invoice Number</label>
+<input type="text" class="form-control">
+</div>
+</div>
+<div class="col-12 col-sm-6">
+<div class="form-group">
+<label>Medicine Image</label>
+<div class="custom-file" id="customFile2">
+<label class="custom-file-upload">
+<input type="file" id="site_logo1" name="site_logo1">
+<span class="file-upload-text"></span>
+<span class="change-user">
+Choose File
+</span>
+</label>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6">
+<div class="form-group">
+<label>Medicine Name</label>
+<input type="text" class="form-control">
+</div>
+</div>
+<div class="col-12 col-sm-6">
+<div class="form-group">
+<label>Total Amount</label>
+<input type="text" class="form-control">
+</div>
+</div>
+<div class="col-12 col-sm-6">
+<div class="form-group">
+<label>Status <span class="text-danger">*</span></label>
+<select class="form-select form-control" name="category" required="">
+<option value="1" selected="selected">Paid</option>
+<option value="2">Unpaid</option>
+<option value="3">Pending</option>
+</select>
+</div>
+</div>
+<div class="col-12 col-sm-6">
+<div class="form-group">
+<label>Created Date</label>
+<input type="text" class="form-control">
+</div>
+</div>
+</div>
+<button type="submit" class="btn btn-primary w-100">Save Changes</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="modal fade" id="delete_modal" aria-hidden="true" role="dialog">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content doctor-profile">
+<div class="modal-header border-bottom-0 justify-content-end">
+<button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close"><i class="feather-x-circle"></i></button>
+</div>
+<div class="modal-body">
+<div class="delete-wrap text-center">
+<div class="del-icon"><i class="feather-x-circle"></i></div>
+<h2>Sure you Want to delete</h2>
+<p>“Invoice Report”</p>
+<div class="submit-section">
+<a href="product-category.html" class="btn btn-success me-2">Yes</a>
+<a href="#" class="btn btn-danger" data-bs-dismiss="modal">No</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<script src="assets/js/feather.min.js"></script>
+
+<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="assets/plugins/datatables/datatables.min.js"></script>
+
+<script src="assets/js/script.js"></script>
+</body>
+
+<!-- Mirrored from doccure-html.dreamguystech.com/template/pharmacy/invoice-report.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 12 Dec 2022 12:43:40 GMT -->
+</html>
